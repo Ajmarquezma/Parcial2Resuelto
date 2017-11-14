@@ -1,0 +1,9 @@
+Oficina,1,true,mirandela,3,1,10,a,
+Oficina,2,false,birandela,6,2,20,b,
+LocalComercial,3,true,cirandela,2,4,33,xd,true,
+LocalComercial,4,false,dirandela,5,6,35,sxd,false,
+Piso,5,true,firandela,12,2,11,10,0,
+Piso,6,false,girandela,72,4,61,34,2,pAddOficina,2,false,birandela,6,2,20,b,6,pAddOficina,1,true,mirandela,3,1,10,a,6,
+Edificio,7,true,hirandela,10,2,22,juan,eAddPiso,6,false,girandela,72,4,61,34,0,7,eAddPiso,5,false,firandela,12,2,11,10,0,7,eAddLocalComercial,3,true,cirandela,2,4,33,xd,true,7,eAddOficina,2,false,birandela,6,2,20,b,7,
+Edificio,8,false,jirandela,106,24,522,perez,
+

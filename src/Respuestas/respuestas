@@ -1,0 +1,21 @@
+1
+    a) 1.Todos los métodos en una interface son abstractos. 
+        RESPUESTA: VERDADERO
+        2. Las interfaces permiten métodos estáticos.   
+        RESPUESTA: FALSO 
+        3. Los atributos declarados en una interface pueden ser cambiados.
+        REPUESTA: FALSO
+        4. Un método abstracto puede ser estático.
+        RESPUESTA: FALSO
+        5. Una interface puede heredar de más de una interface.
+        RESPUESTA: VERDADERO
+
+    B) gestion de excepciones
+     
+       Responda las siguientes preguntas, como verdadero o falso.
+    1.  Podría el statement3 ser ejecutado?
+        RESPUESTA: FALSO
+    2. Si la excepción no es capturada. Podría el  statement4 ser ejecutada?
+        RESPUESTA: FALSO
+    3. Si la excepción es capturada en el bloque catch, podría el statement4 ser ejectuado?
+        RESPUESTA: VERDADERO

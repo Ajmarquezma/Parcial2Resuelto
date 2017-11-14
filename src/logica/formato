@@ -1,0 +1,29 @@
+delimitador ","
+
+el formato imprime carga todo lo almacenado desde el archivo, leyendo cada componente según sea el caso.
+
+Local Comercial:
+ LocalComercial,id,está arrendado,NombreBarrio,AreaConstruida,Estrato,ValorArriendo,descripcion,viaPrincipal,
+
+Oficina:
+Oficina,id,está arrendado,NombreBarrio,tAreaConstruida,Estrato,ValorArriendo, tipo,
+
+Pisos: 
+
+Piso,id,está arrendado,NombreBarrio,tAreaConstruida,Estrato,ValorArriendo,area,numOficinas,
+se le agregan todas las oficinas que estén asignadas al piso en el siguiente formato
+pAddOficina,id,está arrendado,NombreBarrio,tAreaConstruida,Estrato,ValorArriendo, tipo,idDueño
+
+Edificios:
+Edificio,id,está arrendado,NombreBarrio,tAreaConstruida,Estrato,ValorArriendo,propietario,
+se le agregan todos los pisos que estén asignados al edificio en el siguiente formato
+eAddPiso,id,está arrendado,NombreBarrio,tAreaConstruida,Estrato,ValorArriendo,area,numOficinas,idDueño
+
+ 
+se le agregan todos los Locales comerciales que estén asignados al edificio en el siguiente formato
+eAddLocalComerical,id,está arrendado,NombreBarrio,tAreaConstruida,Estrato,ValorArriendo,descripcion,viaPrincipal,idDueño
+
+se le agregan todas las oficinas que estén asignadas al edificio en el siguiente formato
+eAddOficina,id,está arrendado,NombreBarrio,tAreaConstruida,Estrato,ValorArriendo, tipo,idDueño
+
+un ejemplo está incluido en el archivo de texto "Inmuebles.txt" incluido entre los archivos de este programa
